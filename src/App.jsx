@@ -1,8 +1,9 @@
 import { Component } from "react";
-class App extends Component {
+import MonsterRolodexClass from "./components/ClassComponents/MonsterRolodex/MonsterRolodex";
+import "./App.css";
+
+export default class App extends Component {
     render() {
-        return <></>;
+        return <MonsterRolodexClass />;
     }
 }
-
-export default App;
